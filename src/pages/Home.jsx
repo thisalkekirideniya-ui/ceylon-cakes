@@ -755,15 +755,15 @@ export default function Home({ setCurrentPage }) {
             <div className="pt-6 space-y-4 border-t border-[#11302E]/8">
               <div className="flex items-center space-x-4">
                 <Mail size={14} className="text-[#8C4450]" />
-                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">concierge@ceyloncakes.lk</span>
+                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">kaweesha38@gmail.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone size={14} className="text-[#8C4450]" />
-                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">+94 77 123 4567</span>
+                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">+94 77 162 3424</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin size={14} className="text-[#8C4450]" />
-                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">Colombo, Sri Lanka</span>
+                <span className="font-sans text-[11px] uppercase tracking-widest text-[#6B6661]">Aluthgama, Sri Lanka</span>
               </div>
             </div>
           </motion.div>
