@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ceylon-cakes/', // Crucial for static builds on GitHub Pages
+  // Using conditional asset compilation directly driven by target flags
+  base: Object.keys(import.meta.env || {}).includes('GITHUB_ACTIONS') ? '/ceylon-cakes/' : '/',
 })
